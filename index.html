@@ -8,6 +8,59 @@
     <link rel="stylesheet" href="estilos/media-queries.css">
 </head>
 <body>
+    <header>
+        <p>
+            <h1>Calculo de Energia Elétrica</h1>
+        </p>
+    </header>
+    <main>
+        <section>
+            <div id="iform">
+                <p>
+                    <label for="iconsumo">Consumo de kWh:</label>
+                    <input type="number" name="txtconsumo" id="iconsumo">
+
+                </p>
+                <p>
+                    <input type="button" value="Consultar" onclick="consultar()">
+                </p>
+                
+                
+
+            </div>
+            <div id="iinfos">
+                <p>
+                    Informações adicionais que são levadas em consideração no calculo:
+                    <ul>
+                        <li>Tarifa simples.</li>
+                        <dl>
+                            <dt>
+                                <li>Potência diária contratada para 4,6kVA.</li>
+                            </dt>
+                                <dd>1 Frigorífico.</dd>
+                                <dd>1 Máquina de Lavar (roupa ou loiça).</dd>
+                                <dd>1 Microondas ou 1 aquecimento.</dd>
+                                <dd>Até 2 televisões.</dd>
+                                <dd>1 Computador.</dd>
+                        </dl> 
+                        <li>Contribuição audio visual (2.85€).</li>
+                        <li>Taxa Exploração DGEG (0.07€).</li>
+                        <li>Imposto especial de energia (0.001€/kWH).</li>
+                        <li>Primeiros 100 kWh incidem 6% de IVA e 23% ao remanescente.</li>
     
+                    </ul>
+                </p>
+
+            </div>
+        </section>
+        
+
+    </main>
+    <footer>
+        <p>&copy; Criado por <strong><a href="https://github.com/PauloPinto87" rel="external" target="_blank">Paulo Pinto</a></strong>
+        </p>
+    </footer>
+    
+    <script src="javascript/javascript.js"></script>
 </body>
 </html>
