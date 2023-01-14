@@ -22,21 +22,26 @@
     section {
         width: 80vw;
         margin: auto;
+        padding: 20px 10px;
         background-color: #F2E9BB;
         border-radius: 10px;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.479);
     }
 
     section > #iform {
-        padding: 5px;
+
     }
 
     section > #iform > p {
-        padding: 5px;
+
     }
 
     div#iinfos {
         padding: 20px 10px;
+    }
+
+    div#idivresult {
+        padding-top: 10px;
     }
 
     ul {
@@ -55,7 +60,8 @@
         font-style: italic;
     }
 
-    footer > p > a {
+    footer > p > strong > a {
         text-decoration: none;
+        color: white;
     }
 }
