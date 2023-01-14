@@ -10,7 +10,7 @@
     body, html {
         background-image: linear-gradient(#35AAD5, #023859);
         width: auto;
-        height: auto;
+        height: 100vh;
     }
 
     header {
@@ -84,9 +84,13 @@
         font-size: small;
     }
 
-    a {
+    footer a {
         text-decoration: underline;
         color: white;
+    }
+
+    section a {
+        color: black;
     }
 
     i {
@@ -99,7 +103,7 @@
     body {
         background-image: linear-gradient(#35AAD5, #023859);
         width: auto;
-        height: auto;
+        height: 100vh;
     }
 
     header {
@@ -173,12 +177,17 @@
         font-size: normal;
     }
 
-    a {
-        text-decoration: underline;
-        color: white;
+    section a {
+        color: black;
+        color: #0250f7f8;
+
     }
 
-    i {
+    section i {
+        color: #0250f7f8;
+    }
+
+    footer i {
         font-size: 20pt;
         padding: 5px 15px;
     }
@@ -188,7 +197,7 @@
     body {
         background-image: linear-gradient(#35AAD5, #023859);
         width: auto;
-        height: auto;
+        height: 100vh;
     }
 
     header {
@@ -211,7 +220,8 @@
 
     }
 
-    section > #iform > p {
+    section a {
+        color: black;
 
     }
 
@@ -268,7 +278,7 @@
         color: white;
     }
 
-    i {
+    footer i {
         font-size: 30pt;
         padding: 5px 15px;
     }
