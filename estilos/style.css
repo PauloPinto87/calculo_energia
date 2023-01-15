@@ -39,8 +39,6 @@ div#idivresult {
     line-height: 25px;
 }
 
-
-
 p#iind {
     display: none;
     margin-bottom: 5px;
@@ -54,6 +52,10 @@ input[type=button] {
 
 ul {
     margin-left: 25px;
+}
+
+div#idivresult a {
+    font-size: small;
 }
 
 footer {
