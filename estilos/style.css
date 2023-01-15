@@ -8,11 +8,13 @@
     font-size: 1em;
 }
 
+html {
+    height: 100vh;
+    background: linear-gradient(#35AAD5, #023859)fixed;
+}
+
 
 body {
-    background: linear-gradient(#35AAD5, #023859);
-    background-size: cover;
-    width: 100vw;
     height: 100vh;
 }
 

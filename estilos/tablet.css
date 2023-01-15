@@ -1,9 +1,18 @@
 @charset "UTF-8";
 
-html {
+html body{
     font-size: 1.3em;
+    height: 100vh;
 }
 
 main {
     max-width: 600px;
+}
+
+div#idivresult {
+    line-height: 30px;
+}
+
+div#idivresult a {
+    font-size: 0.8em;
 }
