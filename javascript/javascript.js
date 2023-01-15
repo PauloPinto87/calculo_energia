@@ -54,9 +54,11 @@ function consultar() {
             //Soma os valores sem e com impostos de todos os níveis!
             total = tudoIVA23 + tudoIVA13 + tudoIVA6
             //Escreve no DOM o resultado
-            document.querySelector('#idivresult').innerHTML += `${empresa} = ${total.toFixed(2)} €. <a href="tel:+352${contacto}"><i class="fa-solid fa-phone"></i> ${contacto}</a><br>`
+            document.querySelector('#idivresult').innerHTML += `${empresa} = ${total.toFixed(2)} €. <a href="tel:${contacto}"><i class="fa-solid fa-phone"></i> ${contacto}</a><br>`
 
     }
+        document.querySelector('#idivresult').innerHTML += '<br>'
+        document.querySelector('#iind').style.display = 'block'
     }
        
 
