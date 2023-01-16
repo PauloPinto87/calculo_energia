@@ -62,6 +62,11 @@ div#idivresult a {
     font-size: small;
 }
 
+p#icompartilhar {
+    line-height: opx;
+    padding: 20px 0px;
+}
+
 footer {
     margin-top: 20px;
     text-align: center;
