@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- SEO -->
-    <meta name="og:description" content="Estudar/Morar em Portugal, verifique qual a empresa que tem os melhores preços de energia elétrica atualmente."/>
+    <meta name="og:description" content="Estudar/Morar em Portugal. Melhor valor na conta de energia elétrica, confira!"/>
 
 
     <!-- SEO -->
@@ -15,10 +15,13 @@
     <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width: 600px)">
     <link rel="stylesheet" href="estilos/desktop.css" media="screen and (min-width: 992px)">
     <script src="https://kit.fontawesome.com/a97a6cfbcf.js" crossorigin="anonymous"></script>
+    
 
 
 </head>
 <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_PT/sdk.js#xfbml=1&version=v15.0" nonce="C4UWg1BS"></script>
     <header>
         <p>
             <h1>Custo da Energia Elétrica</h1>
@@ -34,7 +37,6 @@
                 <p>
                     <label for="iconsumo">Preencha o consumo de kWh em 30 dias:</label>
                     <input type="number" name="txtconsumo" id="iconsumo">
-
                 </p>
                 <p>
                     <input type="button" value="Consultar" onclick="consultar()">
@@ -42,6 +44,27 @@
             </div>
             <div id="idivresult">
 
+            </div>
+            <div id="icompartilhar">
+                <strong>Compartilhar:</strong>
+                <!-- AddToAny BEGIN -->
+                <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="https://custo-energia.netlify.app/" data-a2a-title="Estudar/Morar em Portugal.">
+                    <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                    <a class="a2a_button_whatsapp"></a>
+                    <a class="a2a_button_facebook"></a>
+                    <a class="a2a_button_twitter"></a>
+                    <a class="a2a_button_telegram"></a>
+                    <a class="a2a_button_facebook_messenger"></a>
+                    <a class="a2a_button_linkedin"></a>
+                    <a class="a2a_button_email"></a>
+                    <a class="a2a_button_pinterest"></a>
+                </div>
+                <script>
+                var a2a_config = a2a_config || {};
+                a2a_config.locale = "pt-BR";
+                </script>
+                <script async src="https://static.addtoany.com/menu/page.js"></script>
+                <!-- AddToAny END -->
             </div>
             <div id="iinfos">
                 <p id="iind">
@@ -71,15 +94,11 @@
                 <p>
                     <strong>Obs:</strong> Não é levada em consideração seguros, pacotes ou descontos adicionais.
                 </p>
-                <p id="icompartilhar">
-                    <strong>Compartilhar:</strong>
-                    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://custo-energia.netlify.app/">
-                    <img width="25" height="25" src="https://ayltoninacio.com.br/img/s/18w50.jpg" alt="">
-                    </a>
-                </p>
+
 
             </div>
         </section>
+
     </main>
     <footer>
         <p>&copy; Criado por <strong><a href="https://github.com/PauloPinto87" rel="external" target="_blank">Paulo Pinto</a></strong>

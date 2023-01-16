@@ -62,10 +62,22 @@ div#idivresult a {
     font-size: small;
 }
 
-p#icompartilhar {
-    line-height: opx;
-    padding: 20px 0px;
+#icompartilhar {
+    text-align: center;
 }
+
+.a2a_kit_size_32{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#icompartilhar a {
+    padding: 10px 0px 20px;
+    
+}
+
+
 
 footer {
     margin-top: 20px;
