@@ -17,7 +17,7 @@ function consultar() {
     const DGEG = 0.07
     //Lista das empresas, preço do kWh e da potência contrata por dia.
     const listaEmpresas = [
-        {empresa:'Luzboa (ind*)', kWh: 0.0282, energContrat: 0.1691, MIBEL: 0.04, contacto:'21 793 0003'},
+        {empresa:'Luzboa (ind*)', kWh: 0.0282, energContrat: 0.1691, MIBEL: 0.04, contacto:'232 099 652'},
         {empresa:'Luzigás( ind*)', kWh: 0.0361, energContrat: 0.2493, MIBEL: 0.04, contacto:'808 203 825'},
         {empresa:'REPSOL (ind*)', kWh: 0.0420, energContrat: 0.2198, MIBEL: 0.04, contacto:'210 540 000'},
         {empresa:'Gold Energy', kWh:0.1465, energContrat:0.2928, MIBEL: 0.00, contacto:'808 205 005'},
